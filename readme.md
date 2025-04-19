@@ -1,7 +1,3 @@
-Here's a comprehensive `README.md` file for your **Sales Data Analysis** project:
-
----
-
 # **Sales Data Analysis Project**
 
 **📊 Overview**  
