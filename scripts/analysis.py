@@ -6,7 +6,7 @@ class SalesAnalyzer:
     
     def monthly_sales(self):
         """Calculate monthly sales"""
-        monthly = self.df.resample('M', on='Date')['Total Amount'].sum()
+        monthly = self.df.resample('ME', on='Date')['Total Amount'].sum()
         return monthly
     
     def sales_by_category(self):
